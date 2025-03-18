@@ -20,13 +20,13 @@ def depositarDinero():
         monto = float(input("Ingrese el monto a depositar: "))
 
         cuentaEncontrada = None
-        for cuenta in cuentaClientes:  # Recorremos la lista de cuentas
-            if cuenta.obtenerNumeroCuenta() == numeroCuenta:  # Aquí está el error
+        for cuenta in cuentaClientes:  
+            if cuenta.obtenerNumeroCuenta() == numeroCuenta:  
                 cuentaEncontrada = cuenta
-                break  # Rompemos el bucle si encontramos la cuenta
+                break  
 
         if cuentaEncontrada:
-            cuentaEncontrada.depositarDinero(monto)  # Ahora llamamos al método correctamente
+            cuentaEncontrada.depositarDinero(monto)  
         else:
             print("Error: Cuenta no encontrada.")
     except ValueError:
