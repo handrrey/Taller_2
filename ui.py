@@ -12,7 +12,7 @@ def crearCuenta():
 
         print("Su cuenta ha sido creada exitosamente.")
     except ValueError:
-        print("Error: Entrada no válida. Por favor ingrese datos correctos.")
+        print("Entrada no válida. Por favor ingrese datos correctos.")
 
 def depositarDinero():
     try:
@@ -30,7 +30,7 @@ def depositarDinero():
         else:
             print("Error: Cuenta no encontrada.")
     except ValueError:
-        print("Error: Entrada no válida.")
+        print("Entrada no válida.")
 
 
 def retirarDinero():
@@ -47,9 +47,9 @@ def retirarDinero():
         if cuentaEncontrada:
             cuentaEncontrada.retirarDinero(monto)
         else:
-            print("Error: Cuenta no encontrada.")
+            print("Cuenta no encontrada.")
     except ValueError:
-        print("Error: Entrada no válida.")
+        print("Entrada no válida.")
 
 def mostrarDatosCuenta():
     try:
@@ -64,6 +64,6 @@ def mostrarDatosCuenta():
         if cuentaEncontrada:
             cuentaEncontrada.mostrarDatos()
         else:
-            print("Error: Cuenta no encontrada.")
+            print("Cuenta no encontrada.")
     except ValueError:
-        print("Error: Entrada no válida.")
+        print("Entrada no válida.")
