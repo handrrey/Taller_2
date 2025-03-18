@@ -38,10 +38,3 @@ class Cuenta:
 
 cuentaClientes = []
 
-#cuentaMaria = Cuenta(1096, 2332, "Maria", 50)
-#cuentaMaria.depositarDinero(100)
-#cuentaMaria.retirarDinero(150)
-#cuentaMaria.mostrarDatos()
-
-#cuentaAndrea = Cuenta(1097, 2334, "Andrea", 100)
-#cuentaAndrea.retirarDinero(50)
